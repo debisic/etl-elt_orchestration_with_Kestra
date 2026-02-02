@@ -21,23 +21,6 @@ services:
       - pgadmin_data:/var/lib/pgadmin
     depends_on:
       - postgres_db
-
-  # green_taxi_ingest:
-  #   build:
-  #     context: .
-  #     dockerfile: Dockerfile
-  #   command: >
-  #     --year 2025
-  #     --month 11
-  #     --postgre_user green
-  #     --postgre_password green
-  #     --postgre_host postgres_db
-  #     --postgre_port 5432
-  #     --postgre_db ny_green_taxi
-  #     --chunksize 100000
-  #     --target_table green_taxi_data_2025_11
-  #   depends_on:
-  #     - postgres_db
   kestra_postgres:
     image: postgres:18
     volumes:
