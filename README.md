@@ -256,7 +256,7 @@ LIMIT 10;
 -- Count yellow taxi records outside the expected for the whole of 2020
 SELECT COUNT(*)
 FROM `kestra-orchestration-486016.ny_taxi.yellow_tripdata`
-WHERE EXTRACT(YEAR FROM tpep_pickup_datetime) = 2019;
+WHERE EXTRACT(YEAR FROM tpep_pickup_datetime) = 2020;
 ```
 
 **Check for records outside expected year (Green Taxi):**
