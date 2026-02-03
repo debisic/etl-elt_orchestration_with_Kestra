@@ -1,5 +1,13 @@
 # Kestra Orchestration for NYC Taxi Data Pipeline
 
+![Kestra](https://img.shields.io/badge/Kestra-v1.1-blue?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTEyIDI0QzE4LjYyNzQgMjQgMjQgMTguNjI3NCAyNCAxMkMyNCA1LjM3MjU4IDE4LjYyNzQgMCAxMiAwQzUuMzcyNTggMCAwIDUuMzcyNTggMCAxMkMwIDE4LjYyNzQgNS4zNzI1OCAyNCAxMiAyNFoiIGZpbGw9IiMwMDAwRkYiLz4KPC9zdmc+Cg==)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-18-316192?style=flat-square&logo=postgresql&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-Compose-2496ED?style=flat-square&logo=docker&logoColor=white)
+![GCP](https://img.shields.io/badge/Google_Cloud-BigQuery-4285F4?style=flat-square&logo=google-cloud&logoColor=white)
+![Data Engineering](https://img.shields.io/badge/Data-Engineering-FF6F00?style=flat-square)
+![ELT Pipeline](https://img.shields.io/badge/Pipeline-ELT-green?style=flat-square)
+![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
+
 A comprehensive data engineering project demonstrating workflow orchestration using [Kestra](https://kestra.io/) to build ELT pipelines for NYC taxi data. This project showcases both PostgreSQL and Google Cloud Platform (GCP) BigQuery implementations with various scheduling and backfill capabilities.
 
 ## 📋 Table of Contents
